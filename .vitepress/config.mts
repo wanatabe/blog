@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: '文档', link: '/src/依赖管理' },
       {
-        text: '参考',
+        text: 'blog',
         items: [
           {
             items: [{ text: '文章阅读', link: '/blog/提问的智慧' }],
@@ -35,16 +35,21 @@ export default defineConfig({
     sidebar: {
       '/src/': [
         {
+          text: 'Monorepo',
           items: [
-            { text: '快速开始', link: '/src/index' },
             { text: 'Monorepo', link: '/src/Monorepo' },
-            { text: 'pnpm', link: '/src/依赖管理' },
+            { text: '依赖管理', link: '/src/依赖管理' },
+          ],
+        },
+        {
+          items: [
+            // { text: '快速开始', link: '/src/index' },
             { text: '约定式提交规范', link: '/src/约定式提交规范' },
-            { text: 'icon', link: '/src/使用svg作为icon' },
-            { text: 'indexDB', link: '/src/indexDB' },
-            { text: 'MicroApp', link: '/src/MicroApp' },
+            // { text: 'icon', link: '/src/使用svg作为icon' },
+            // { text: 'indexDB', link: '/src/indexDB' },
+            // { text: 'MicroApp', link: '/src/MicroApp' },
             { text: 'node版本管理工具Volta', link: '/src/node版本管理工具Volta' },
-            { text: 'swagger文档转api使用说明', link: '/src/swagger文档转api使用说明' },
+            // { text: 'swagger文档转api使用说明', link: '/src/swagger文档转api使用说明' },
           ],
         },
       ],

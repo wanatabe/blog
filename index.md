@@ -7,9 +7,6 @@ hero:
   text: "wanatabe's blog"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 前往
+      link: /src/约定式提交规范
 ---
