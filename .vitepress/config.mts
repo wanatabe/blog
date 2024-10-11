@@ -72,4 +72,5 @@ export default defineConfig({
         'Copyright © 2024-present wanatabe <a data-v-3f234ad9="" rel="nofollow" target="_blank" href="https://beian.miit.gov.cn/">蜀ICP备2022026040号-1</a>',
     },
   },
+  ignoreDeadLinks: true,
 });
