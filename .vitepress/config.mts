@@ -14,10 +14,16 @@ export default defineConfig({
         text: 'blog',
         items: [
           {
-            items: [{ text: '文章阅读', link: '/blog/提问的智慧' }],
+            items: [
+              { text: '文章阅读', link: '/blog/提问的智慧' },
+              { text: 'npm', link: '/npm/package.json' },
+              { text: '设计模式', link: '/DesignPattern/SingletonPattern' },
+            ],
           },
           {
-            items: [{ text: 'TypeScript 教程', link: 'https://typescript.p6p.net/' }],
+            items: [
+              { text: 'TypeScript 教程', link: 'https://typescript.p6p.net/' },
+            ],
           },
         ],
       },
@@ -61,6 +67,12 @@ export default defineConfig({
             { text: '如何优化 JavaScript 代码', link: '/blog/如何优化 JavaScript 代码' },
           ],
         },
+      ],
+      '/npm/': [
+        { text: 'package.json', link: '/npm/package.json' },
+      ],
+      '/DesignPattern/': [
+        { text: '单例模式', link: '/DesignPattern/SingletonPattern' },
       ],
     },
 
